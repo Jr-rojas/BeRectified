@@ -1,0 +1,27 @@
+// _variables.scss
+
+:root {
+    --primary-color: #D8933D; /* Replace with your primary color */
+    --background-color: #2E2E2E; /* Replace with your background color */
+  }
+
+// Theme Colors
+$primary: #D8933D; // Primary color override for Bootstrap
+$secondary: #383838; // Secondary color override for Bootstrap
+$accent-color: #FFC107; // Additional color for accents
+
+$background-color: #2E2E2E;
+
+$light: #F2EEEA;
+
+// Font Family
+$heading-font: 'Bebas Neue', 'sans-serif';
+$body-font: 'Montserrat', 'sans-serif';
+
+// Global Spacing
+$global-padding: 16px;
+$global-margin: 16px;
+
+// Define custom list group border color and width
+$list-group-border-color: $secondary; // Replace with your desired color
+$list-group-border-width: 2px;     // Adjust the width if needed

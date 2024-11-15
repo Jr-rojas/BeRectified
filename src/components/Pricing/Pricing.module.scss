@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.hBarberService + hr{
+    position: relative;
+    z-index: 1;
+ }
+
+.hBarberService + hr::after{
+    content: "";
+   position: absolute;
+   background: red;
+   height: 2px;
+   left: 0;
+   top:50%;
+   width: 1000px;
+   overflow: visible;
+   z-index: 2;
+}
