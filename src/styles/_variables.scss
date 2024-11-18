@@ -25,3 +25,6 @@ $global-margin: 16px;
 // Define custom list group border color and width
 $list-group-border-color: $secondary; // Replace with your desired color
 $list-group-border-width: 2px;     // Adjust the width if needed
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875;

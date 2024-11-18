@@ -19,7 +19,7 @@ export default function Pricing(){
     }, []);
 
     return(
-            <div className="container-fluid">
+            <section className="container-fluid">
                 {isLargeScreen ? (
                 <div className="container row mx-auto my-3 p-3">
                     <div className="col-5 my-2 pe-0" 
@@ -39,12 +39,12 @@ export default function Pricing(){
                 </div> ) 
                 : (
                 <div className="container mx-auto my-2 p-2">
-                    <div className=" d-flex flex-column justify-content-center align-items-center"
+                    <div className=" d-flex flex-column justify-content-center align-items-center px-5"
                         style={{height:"450px"}}>
                         <img
                             src={JoseCuttingHair}
                             alt="barber cutting hair"
-                            className="h-100"
+                            className="h-100 w-100"
                             style={{ objectFit: "cover" }}
                         />
                     </div>
@@ -55,6 +55,6 @@ export default function Pricing(){
                     </div>
                 </div>
                 )}
-            </div>
+            </section>
     )
 }
