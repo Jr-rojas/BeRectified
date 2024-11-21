@@ -1,0 +1,14 @@
+.img{
+    position: relative;
+
+    &::before{
+        position: absolute;
+        content:"";
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        top:41%;
+        left:51%;
+        z-index: 3;
+    }
+}
