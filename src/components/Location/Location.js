@@ -4,11 +4,13 @@ import styles from "./Location.module.scss"
 export default function Location(){
 
     return(
-        <div className="container">
-            <h1>Location</h1>
-            <div className={`${styles.img} container-md my-3`}>
-                <img src={location} alt="map of location of barbershop" className="img-fluid"/>
+        <section>
+            <div className="container-lg my-4">
+                <h1 className="text-light">Location</h1>
+                <div className={`${styles.img} my-3`}>
+                    <img src={location} alt="map of location of barbershop" className="img-fluid"/>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }

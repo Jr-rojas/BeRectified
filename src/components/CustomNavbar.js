@@ -12,8 +12,8 @@ export default function CustomNavbar(){
                 alt="logo"
                 src="/images/logo(Trans).png"
                 style={{
-                height: 100,
-                width: 220
+                height: 90,
+                aspectRatio: "auto"
                 }}
             />
             </NavbarBrand>

@@ -5,12 +5,12 @@ export default function Hero(){
         <>
             <div className="container-fluid row mx-0 px-0 bg-primary vh-100">
                 <div 
-                className="col h-100 d-flex align-items-end justify-content-center" 
+                className="col h-100 d-flex align-items-end justify-content-center .d-sm-none .d-md-block" 
                 style={{backgroundImage:"linear-gradient(to right, var(--background-color) , var(--primary-color)"}}>
                     <div className="container text-center text-light">
-                        <h1 className="display-1 lh-sm">Pricing</h1>
-                        <h1 className="display-1 lh-sm">Location</h1>
-                        <h1 className="display-1 lh-sm">gallery</h1>
+                        <h1 className="display-3 lh-1">Pricing</h1>
+                        <h1 className="display-3 lh-1">Location</h1>
+                        <h1 className="display-3 lh-1">gallery</h1>
                     </div>
                 </div>
                 <img
