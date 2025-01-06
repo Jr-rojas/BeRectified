@@ -63,7 +63,7 @@ function CustomCarosel(props) {
 
   return (
     <div className="my-4">
-      <Carousel activeIndex={activeIndex} next={next} previous={previous} dark className="bg-light container">
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} className="bg-secondary shadow container">
         <CarouselIndicators
           items={reviews}
           activeIndex={activeIndex}

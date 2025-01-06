@@ -19,7 +19,7 @@ export default function Pricing(){
     }, []);
 
     return(
-            <section className="container-fluid">
+            <section className="container-fluid" >
                 {isLargeScreen ? (
                 <div className="container row mx-auto my-3 p-3">
                     <div className="col-5 my-2 pe-0" 
@@ -31,9 +31,9 @@ export default function Pricing(){
                             style={{ objectFit: "cover" }}
                         />
                     </div>
-                    <div className="col-7 bg-primary ps-5 p-3 my-5 d-flex flex-column justify-content-center">
+                    <div className="col-7 ps-5 p-3 my-5 d-flex flex-column justify-content-center text-light" style={{backgroundColor: "#2F2519"}}>
                         <h1 className="mb-0">Barber Service</h1>
-                        <hr className="border border-secondary border-2 opacity-100 mt-0"/>
+                        <hr className="border border-primary border-2 opacity-100 mt-0"/>
                             <ServiceList/>
                     </div>
                 </div> ) 

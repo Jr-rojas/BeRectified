@@ -1,5 +1,4 @@
 // _globals.scss
-
 @import 'variables';
 
 * {
@@ -8,6 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: $secondary !important;
-}
+body {
+    background-color: $body-bg; // Dark brownish
+    color: $body-color; // Light text
+  }

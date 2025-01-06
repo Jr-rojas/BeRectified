@@ -1,17 +1,15 @@
 // _variables.scss
 
-:root {
-    --primary-color: #D8933D; /* Replace with your primary color */
-    --background-color: #2E2E2E; /* Replace with your background color */
-  }
-
-// Theme Colors
-$primary: #D8933D; // Primary color override for Bootstrap
+//OLD COLORS
+/* $primary: #D8933D; // Primary color override for Bootstrap
 $secondary: #383838; // Secondary color override for Bootstrap
-$accent-color: #FFC107; // Additional color for accents
+$accent-color: #FFC107; // Additional color for accents */
 
+// NEW COLORS
+$primary: #d45004;
+$secondary: #2F2519;
+$dark: #1a1a1a;
 $background-color: #2E2E2E;
-
 $light: #F2EEEA;
 
 // Font Family
@@ -22,9 +20,18 @@ $body-font: 'Montserrat', 'sans-serif';
 $global-padding: 16px;
 $global-margin: 16px;
 
-// Define custom list group border color and width
-$list-group-border-color: $secondary; // Replace with your desired color
-$list-group-border-width: 2px;     // Adjust the width if needed
+//Typography
+$font-size-base: 1rem; //typically `16px`
+$font-size-sm: $font-size-base * .875;
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875;
+//Bootstrap Overrides
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+$body-bg: $dark;
+$body-color: $light;
+
+$list-group-border-color: $light;
+$list-group-border-width: 2px;
