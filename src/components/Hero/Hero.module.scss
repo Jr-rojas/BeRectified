@@ -1,0 +1,28 @@
+.heroImage{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex: 1;
+
+
+  @media (min-width: 768px) {
+    height: 100%; // Match full height for larger screens
+  }
+
+  overflow: hidden; // Ensure the image doesn't spill over
+}
+
+.heroSection {
+    display: flex; // Enable Flexbox for layout
+    flex-wrap: wrap; // Allow wrapping for smaller screens
+    height: 100vh; // Ensures full viewport height
+    padding: 1rem; // Maintain padding
+  }
+  
+  // Adjustments for landscape mode on small devices
+  @media (max-aspect-ratio: 3/2) {
+    .heroSection {
+      min-height: calc(100vh - 50px); // Adjust for system UI
+    }
+  }

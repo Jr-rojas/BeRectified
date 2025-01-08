@@ -48,9 +48,9 @@ export default function Pricing(){
                             style={{ objectFit: "cover" }}
                         />
                     </div>
-                    <div className="bg-primary p-4 pt-5 mt-n5 mb-2 d-flex flex-column justify-content-center">
+                    <div className="bg-secondary p-4 pt-5 mt-n5 mb-2 d-flex flex-column justify-content-center">
                         <h1 className="mb-0 mt-5">Barber Service</h1>
-                        <hr className="border border-secondary border-2 opacity-100 mt-0 mb-4"/>
+                        <hr className="border border-primary border-2 opacity-100 mt-0 mb-4"/>
                             <ServiceList/>
                     </div>
                 </div>

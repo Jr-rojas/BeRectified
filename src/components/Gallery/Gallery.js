@@ -1,5 +1,5 @@
 import styles from "./Gallery.module.scss"
-import JoseCutting from "../../assets/images/JoseCuttingHair.jpg"
+//import JoseCutting from "../../assets/images/JoseCuttingHair.jpg"
 import galleryImages from "../../utils/loadImages"; 
 
 const chunkArray = (array, chunkSize) => {
@@ -26,7 +26,7 @@ export default function Pricing(){
                             <div key={rowIndex} className={styles.gallery}>
                                 <div className={styles.grid}>
                                     {rowImages.concat(rowImages).map((img, i) => (
-                                        <img key={`${rowIndex}-${i}`} src={img} alt={`Gallery Image ${i + 1}`} />
+                                        <img key={`${rowIndex}-${i}`} src={img} alt={`Gallery ${i + 1}`} />
                                     ))}
                                 </div>
                             </div>
