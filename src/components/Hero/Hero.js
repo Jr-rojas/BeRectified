@@ -6,7 +6,7 @@ export default function Hero(){
     const booksyURL = "https://booksy.com/en-us/dl/show-business/488886?utm_medium=c2c_referral"
 
     return(
-        <section className={`${styles.heroSection} bg-secondary`}>
+        <section id="heroSection" className={`${styles.heroSection} bg-secondary`}>
             <div className="container-fluid h-100 p-1 m-1">
                 <div className="container-lg row justify-content-around align-items-center h-100 mx-auto">
                     <div className="col-md-4">

@@ -4,7 +4,7 @@ import styles from "./Location.module.scss"
 
 export default function Location(){
 
-    const googleMapsUrl="https://maps.app.goo.gl/WvgqDUZoCfUYeVfz6"
+    const googleMapsUrl="https://maps.app.goo.gl/dWxroRCr6AF5PoW46"
 
     return(
         <section>
@@ -16,7 +16,7 @@ export default function Location(){
                             <address className="col">
                                 <strong>Be Rectified</strong>
                                 <br/>
-                                1712 Niles St,
+                                1716 Niles St,
                                 <br/>
                                 Bakersfield, CA 93305
                             </address>
