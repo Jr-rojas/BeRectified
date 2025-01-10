@@ -1,0 +1,11 @@
+.transparentNavbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease; // Smooth transition
+  }
+  
+  .solidNavbar {
+    background-color: #2f2519 !important; // Solid color for navbar
+    transition: background-color 0.3s ease; // Smooth transition
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Optional shadow for effect
+  }
+  

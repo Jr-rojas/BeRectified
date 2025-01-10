@@ -1,4 +1,4 @@
-import CustomNavbar from "../components/CustomNavbar"
+import CustomNavbar from "../components/Navbar/CustomNavbar"
 import Hero from "../components/Hero/Hero"
 import Pricing from "../components/Pricing/Pricing"
 import ReviewLayout from "../components/ReviewCard/ReviewLayout"
