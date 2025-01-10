@@ -11,17 +11,17 @@ const reviews = [
   {
     id: 1,
     text: 'Humble man and pays attentino to every detail and perfects every cut before letting you off the chiar. Makes sure you are satisfied with the cut. Great quality cuts, very recommended.',
-    name: 'Fernando',
+    name: 'Fernando M.',
   },
   {
     id: 2,
-    text: 'Slide 2',
-    name: 'Slide 2',
+    text: 'Best Barber in Bakersfield, Jose has SOOOO much patience with kids! My husband and kids always have a fresh cut! HIGHLY RECOMMEND!! 5 STARS ⭐⭐⭐⭐⭐',
+    name: 'Clarissa C.',
   },
   {
     id: 3,
-    text: 'Slide 3',
-    name: 'Slide 3',
+    text: 'Jose knows what his clients want and he goes above and beyond to make sure you are satisfied. He is passionate and truly knows what it takes to be a barber. 10/10',
+    name: 'Brandon T.',
   },
 ];
 

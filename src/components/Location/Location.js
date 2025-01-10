@@ -8,11 +8,11 @@ export default function Location(){
 
     return(
         <section>
-            <div className="container-lg my-4">
+            <div className="container-lg my-5">
                 <h1 className="text-light">Location</h1>
                 <div className="row justify-content-around">
                     <div className="col-lg-3">
-                        <div className="mt-2 py-2">
+                        <div className="pb-2">
                             <address className="col">
                                 <strong>Be Rectified</strong>
                                 <br/>

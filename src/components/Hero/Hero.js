@@ -3,6 +3,8 @@ import barberShop from "../../assets/images/gallery/IMG_0607.jpg"
 import styles from "./Hero.module.scss"
 
 export default function Hero(){
+    const booksyURL = "https://booksy.com/en-us/dl/show-business/488886?utm_medium=c2c_referral"
+
     return(
         <section className={`${styles.heroSection} bg-secondary`}>
             <div className="container-fluid h-100 p-1 m-1">
@@ -18,6 +20,10 @@ export default function Hero(){
                                 block
                                 color="primary"
                                 size="lg"
+                                href={booksyURL}
+                                tag="a"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 style={{color:"#f8f9fa"}}
                             >
                                 Book Now
