@@ -5,7 +5,7 @@ export default function Footer(){
                 <div className="row justify-content-between">
                     <div className="col-md-5">
                         <h5>Be Rectified Barber Shop</h5>
-                        <p className="mb-0">1712 Niles St, Bakersfield, CA 93305</p>
+                        <p className="mb-0">1716 Niles St, Bakersfield, CA 93305</p>
                         <p>Phone: 661-448-0137 </p>
                         <div className="">
                             <img src=".//images/Horz_BR3_Yellow(Trans)2.png" alt="Be Rectified Barber Logo" className="img-fluid"/>
