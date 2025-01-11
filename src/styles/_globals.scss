@@ -1,5 +1,5 @@
 // _globals.scss
-@import 'variables';
+@use './variables' as *;
 
 * {
     margin: 0;

@@ -38,6 +38,9 @@ export default function CustomNavbar() {
             color="primary"
             className="ms-auto"
             href={booksyURL}
+            tag="a"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ marginRight: "1rem", color:"white"}}
             >
             Book Now

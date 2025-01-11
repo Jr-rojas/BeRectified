@@ -1,9 +1,15 @@
 // custom-bootstrap.scss
-@import 'variables';
+@use './variables' as *;
 
 // Enable negative margins
 $enable-negative-margins: true;
 
 
 
-@import '~bootstrap/scss/bootstrap';
+@use '~bootstrap/scss/bootstrap' with (
+    $primary: $primary,
+    $secondary: $secondary,
+    $body-bg: $dark,
+    $body-color: $light,
+    $list-group-border-width: 2px
+);

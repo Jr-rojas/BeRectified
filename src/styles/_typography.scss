@@ -1,5 +1,5 @@
 //typograhphy.scss
-@import 'variables';
+@use './variables' as *;
 
 //set default font family for the entire app
 body, p, span, li {
