@@ -26,9 +26,9 @@ export default function CustomNavbar() {
         <NavbarBrand href="/">
             <img
             alt="logo"
-            src="/images/logo(Trans).png"
+            src="/images/Be_Rectified_logo.png"
             style={{
-                height: 50,
+                height: 80,
                 aspectRatio: "auto",
             }}
             />
