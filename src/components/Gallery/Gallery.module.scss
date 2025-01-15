@@ -60,7 +60,7 @@
     animation: slide 30s linear infinite;
     white-space: nowrap;
     
-
+  
     > img {
         width: var(--s);
         margin:var(--g);
@@ -77,11 +77,11 @@
         filter: brightness(1.2);
         z-index: 1;
     }
-
-    section.viewer-open & {
-        animation-play-state:paused;
-      }
 }
+
+/* body.viewer-open .grid {
+    animation-play-state: paused !important;
+  } */
 
 .viewer {
     position: fixed;

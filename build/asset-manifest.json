@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4f1f8dd.css",
-    "main.js": "/static/js/main.2358a5fd.js",
+    "main.css": "/static/css/main.89b7f085.css",
+    "main.js": "/static/js/main.e4d354bf.js",
     "static/media/IMG_0607.jpg": "/static/media/IMG_0607.31b35f826c5cd980a911.jpg",
-    "static/media/IMG_0615.jpg": "/static/media/IMG_0615.6f0bbaff1fd8786ae116.jpg",
+    "static/media/IMG_1744.JPG": "/static/media/IMG_1744.3800747b7434ad525839.JPG",
     "static/media/IMG_0611.jpg": "/static/media/IMG_0611.7007b7fecdef9e1ef673.jpg",
     "static/media/IMG_1737.JPG": "/static/media/IMG_1737.1d7deec33f83f1ae26c3.JPG",
     "static/media/IMG_0610.jpg": "/static/media/IMG_0610.e2c530f12a789940f288.jpg",
@@ -19,11 +19,11 @@
     "static/media/IMG_0614.jpg": "/static/media/IMG_0614.ca78bcf20fb9fbaa5b18.jpg",
     "static/media/barber-pole.png": "/static/media/barber-pole.52fa69dd4632c2c2f506.png",
     "index.html": "/index.html",
-    "main.a4f1f8dd.css.map": "/static/css/main.a4f1f8dd.css.map",
-    "main.2358a5fd.js.map": "/static/js/main.2358a5fd.js.map"
+    "main.89b7f085.css.map": "/static/css/main.89b7f085.css.map",
+    "main.e4d354bf.js.map": "/static/js/main.e4d354bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f1f8dd.css",
-    "static/js/main.2358a5fd.js"
+    "static/css/main.89b7f085.css",
+    "static/js/main.e4d354bf.js"
   ]
 }
