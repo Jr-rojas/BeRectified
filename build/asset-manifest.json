@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b811871.css",
-    "main.js": "/static/js/main.7a68832f.js",
-    "static/media/barbershop.jpg": "/static/media/barbershop.ea606d9f85a22a2205a9.jpg",
-    "static/media/IMG_0768.jpg": "/static/media/IMG_0768.a9d2ae4c8a1a7c0e5141.jpg",
-    "static/media/IMG_0607.jpg": "/static/media/IMG_0607.18dbfbe44b618b64a4d3.jpg",
+    "main.css": "/static/css/main.a4f1f8dd.css",
+    "main.js": "/static/js/main.2358a5fd.js",
+    "static/media/IMG_0607.jpg": "/static/media/IMG_0607.31b35f826c5cd980a911.jpg",
     "static/media/IMG_0615.jpg": "/static/media/IMG_0615.6f0bbaff1fd8786ae116.jpg",
     "static/media/IMG_0611.jpg": "/static/media/IMG_0611.7007b7fecdef9e1ef673.jpg",
+    "static/media/IMG_1737.JPG": "/static/media/IMG_1737.1d7deec33f83f1ae26c3.JPG",
     "static/media/IMG_0610.jpg": "/static/media/IMG_0610.e2c530f12a789940f288.jpg",
+    "static/media/IMG_1743.JPG": "/static/media/IMG_1743.4df1aaef568589662391.JPG",
+    "static/media/IMG_1739.JPG": "/static/media/IMG_1739.07c6e4901a2e9d9e5ab8.JPG",
     "static/media/IMG_0608.jpg": "/static/media/IMG_0608.9eaaa193ac2217b417c0.jpg",
     "static/media/IMG_0613.jpg": "/static/media/IMG_0613.258416262ef81cbcecff.jpg",
     "static/media/IMG_0609.jpg": "/static/media/IMG_0609.56e163dc1113b1d90d12.jpg",
-    "static/media/IMG_0580.jpg": "/static/media/IMG_0580.fa7250e390b200efe60c.jpg",
     "static/media/JoseCuttingHair.jpg": "/static/media/JoseCuttingHair.fa7250e390b200efe60c.jpg",
+    "static/media/IMG_1745.JPG": "/static/media/IMG_1745.18956fdd6db8257f89ac.JPG",
     "static/media/IMG_0616.jpg": "/static/media/IMG_0616.34679a5dd936a167a906.jpg",
     "static/media/location.png": "/static/media/location.9d1b5ef0d2e7c675e706.png",
     "static/media/IMG_0614.jpg": "/static/media/IMG_0614.ca78bcf20fb9fbaa5b18.jpg",
     "static/media/barber-pole.png": "/static/media/barber-pole.52fa69dd4632c2c2f506.png",
     "index.html": "/index.html",
-    "main.6b811871.css.map": "/static/css/main.6b811871.css.map",
-    "main.7a68832f.js.map": "/static/js/main.7a68832f.js.map"
+    "main.a4f1f8dd.css.map": "/static/css/main.a4f1f8dd.css.map",
+    "main.2358a5fd.js.map": "/static/js/main.2358a5fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b811871.css",
-    "static/js/main.7a68832f.js"
+    "static/css/main.a4f1f8dd.css",
+    "static/js/main.2358a5fd.js"
   ]
 }

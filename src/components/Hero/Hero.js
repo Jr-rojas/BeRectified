@@ -1,5 +1,5 @@
 import { Button } from "reactstrap"
-import barberShop from "../../assets/images/gallery/IMG_0607.jpg"
+import barberShop from "../../assets/images/IMG_0607.jpg"
 import styles from "./Hero.module.scss"
 
 export default function Hero(){
