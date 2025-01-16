@@ -75,6 +75,7 @@ export default function Pricing(){
                                         key={`${rowIndex}-${i}`} 
                                         src={img} 
                                         alt={`Gallery ${i + 1}`} 
+                                        loading="lazy"
                                         onClick={() => openViewer((rowIndex * rowImages.length + (i % rowImages.length)) %galleryImages.length)} 
                                         />
                                     ))}

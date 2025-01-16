@@ -31,10 +31,9 @@ export default function Hero(){
                             </Button>
                         </div>
                     </div>
-                    <div className={`${styles.heroImage} col-md-7 pt-3 `}
-                        /* style={{
-                            backgroundImage: `url(${barberShop})`
-                      }} */>
+                    <div className={`${styles.heroImage} col-md-7 pt-3 `} 
+                        loading="eager"
+                    >
                     </div>
                 </div>
             </div>

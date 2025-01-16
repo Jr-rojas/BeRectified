@@ -28,6 +28,7 @@ export default function Pricing(){
                             src={JoseCuttingHair}
                             alt="barber cutting hair"
                             className="w-100 h-100"
+                            loading="lazy"
                             style={{ objectFit: "cover", boxShadow: "0 5px 8px rgba(0, 0, 0, 0.5)", position:"relative", zIndex:"1"}}
                         />
                     </div>
