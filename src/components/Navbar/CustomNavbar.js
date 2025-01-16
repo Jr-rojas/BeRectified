@@ -23,29 +23,32 @@ export default function CustomNavbar() {
         fixed="top"
         className={`my-0 py-2 ${isScrolled ? styles.solidNavbar : styles.transparentNavbar}`}
         >
-        <NavbarBrand href="/">
-            <img
-            alt="logo"
-            src="/images/Be_Rectified_logo.png"
-            style={{
-                width: 125,
-                aspectRatio: "auto",
-            }}
-            />
-        </NavbarBrand>
-        {isScrolled && (
-            <Button
-            color="primary"
-            className="ms-auto"
-            href={booksyURL}
-            tag="a"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginRight: "1rem", color:"white"}}
-            >
-            Book Now
-            </Button>
-        )}
+        <div className="container-md d-flex justify-content-between align-items-center w-100">
+            <NavbarBrand href="/">
+                <img
+                alt="logo"
+                src="/images/Be_Rectified_logo.png"
+                style={{
+                    width: 125,
+                    aspectRatio: "auto",
+                }}
+                />
+            </NavbarBrand>
+            {isScrolled && (
+                <Button
+                color="primary"
+                className="ms-auto"
+                href={booksyURL}
+                tag="a"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Book an appointment with Be Rectified Barber Shop on Booksy"
+                style={{ marginRight: "1rem", color:"white"}}
+                >
+                Book Now
+                </Button>
+            )}
+        </div>
         </Navbar>
     );
 }

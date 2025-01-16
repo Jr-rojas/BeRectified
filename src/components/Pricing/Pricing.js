@@ -28,7 +28,7 @@ export default function Pricing(){
                             src={JoseCuttingHair}
                             alt="barber cutting hair"
                             className="w-100 h-100"
-                            style={{ objectFit: "cover" }}
+                            style={{ objectFit: "cover", boxShadow: "0 5px 8px rgba(0, 0, 0, 0.5)", position:"relative", zIndex:"1"}}
                         />
                     </div>
                     <div className="col-7 ps-5 p-3 my-5 d-flex flex-column justify-content-center text-light" style={{backgroundColor: "#2F2519"}}>
@@ -43,9 +43,9 @@ export default function Pricing(){
                         style={{height:"450px"}}>
                         <img
                             src={JoseCuttingHair}
-                            alt="barber cutting hair"
+                            alt="Jose barber cutting hair"
                             className="h-100 w-100 "
-                            style={{ objectFit: "cover" }}
+                            style={{ objectFit: "cover", boxShadow: "0 5px 8px rgba(0, 0, 0, 0.5)", position:"relative", zIndex:"1" }}
                         />
                     </div>
                     <div className="bg-secondary p-4 pt-5 mt-n5 mb-2 d-flex flex-column justify-content-center">

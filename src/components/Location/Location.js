@@ -28,6 +28,7 @@ export default function Location(){
                                     tag="a"
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    aria-label="Get directions to Be Rectified Barber Shop on Google Maps"
                                 >
                                     Get Directions
                                 </Button>

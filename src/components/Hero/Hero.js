@@ -24,7 +24,8 @@ export default function Hero(){
                                 tag="a"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{color:"#f8f9fa"}}
+                                aria-label="Book an appointment with Be Rectified Barber Shop on Booksy"
+                                style={{color:"#fff"}}
                             >
                                 Book Now
                             </Button>
