@@ -1,28 +1,37 @@
-.heroImage{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
-    flex: 1;
-    overflow: hidden;
+.heroImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  flex: 1;
+  overflow: hidden;
 
 
-  @media (min-width: 768px) {
-    height: 100%; // Match full height for larger screens
+  @media (max-width: 480px) {
+    background-image: url("../../assets/images/inside_barber_shop_mobile.jpg");
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    background-image: url("../../assets/images/inside_barber_shop_tablet.jpg");
+  }
+
+  @media(min-width: 769px) {
+    background-image: url("../../assets/images/inside_barber_shop.jpg");
+    height: 100%;
   }
 }
 
 .heroSection {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    max-height: 800px;
-    padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  max-height: 800px;
+  padding: 1rem;
+}
+
+// Adjustments for landscape mode on small devices
+@media (max-aspect-ratio: 3/2) {
+  .heroSection {
+    min-height: calc(100vh - 50px);
   }
-  
-  // Adjustments for landscape mode on small devices
-  @media (max-aspect-ratio: 3/2) {
-    .heroSection {
-      min-height: calc(100vh - 50px);
-    }
-  }
+}

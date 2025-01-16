@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.f53bcf15.css",
-    "main.js": "/static/js/main.e3f554d5.js",
+    "main.css": "/static/css/main.7574469a.css",
+    "main.js": "/static/js/main.774e4cd1.js",
     "static/media/inside_barber_shop.jpg": "/static/media/inside_barber_shop.18dbfbe44b618b64a4d3.jpg",
-    "static/media/IMG_1744.JPG": "/static/media/IMG_1744.3800747b7434ad525839.JPG",
-    "static/media/IMG_0611.jpg": "/static/media/IMG_0611.7007b7fecdef9e1ef673.jpg",
-    "static/media/IMG_1737.JPG": "/static/media/IMG_1737.1d7deec33f83f1ae26c3.JPG",
-    "static/media/IMG_0610.jpg": "/static/media/IMG_0610.e2c530f12a789940f288.jpg",
-    "static/media/IMG_1743.JPG": "/static/media/IMG_1743.4df1aaef568589662391.JPG",
-    "static/media/IMG_1739.JPG": "/static/media/IMG_1739.07c6e4901a2e9d9e5ab8.JPG",
-    "static/media/IMG_0608.jpg": "/static/media/IMG_0608.9eaaa193ac2217b417c0.jpg",
-    "static/media/IMG_0613.jpg": "/static/media/IMG_0613.258416262ef81cbcecff.jpg",
-    "static/media/IMG_0609.jpg": "/static/media/IMG_0609.56e163dc1113b1d90d12.jpg",
     "static/media/JoseCuttingHair.jpg": "/static/media/JoseCuttingHair.fa7250e390b200efe60c.jpg",
-    "static/media/IMG_1745.JPG": "/static/media/IMG_1745.18956fdd6db8257f89ac.JPG",
-    "static/media/IMG_0616.jpg": "/static/media/IMG_0616.34679a5dd936a167a906.jpg",
+    "static/media/inside_barber_shop_tablet.jpg": "/static/media/inside_barber_shop_tablet.f9ae4a2ebdfa914be595.jpg",
     "static/media/location.png": "/static/media/location.9d1b5ef0d2e7c675e706.png",
-    "static/media/IMG_0614.jpg": "/static/media/IMG_0614.ca78bcf20fb9fbaa5b18.jpg",
+    "static/media/Untitled design(3).jpg": "/static/media/Untitled design(3).06f4d1d39a96a6d406a1.jpg",
+    "static/media/Untitled design(10).jpg": "/static/media/Untitled design(10).b513a988c44c3d995ea8.jpg",
+    "static/media/Untitled design(2).jpg": "/static/media/Untitled design(2).ea634f5398d3f2a897c9.jpg",
+    "static/media/Untitled design(8).jpg": "/static/media/Untitled design(8).24535945dfcbe4a1058d.jpg",
+    "static/media/Untitled design.jpg": "/static/media/Untitled design.97907eb72c70efb426ce.jpg",
+    "static/media/Untitled design(5).jpg": "/static/media/Untitled design(5).f7bed7c1a69040ab9bb0.jpg",
+    "static/media/Untitled design(9).jpg": "/static/media/Untitled design(9).e0db97a6ede05d205d2a.jpg",
+    "static/media/Untitled design(11).jpg": "/static/media/Untitled design(11).86de857570b5c7c0cf63.jpg",
+    "static/media/Untitled design(1).jpg": "/static/media/Untitled design(1).fa52fd3ffdee5ef47aba.jpg",
+    "static/media/Untitled design(4).jpg": "/static/media/Untitled design(4).0026ab8265514917535f.jpg",
+    "static/media/Untitled design(7).jpg": "/static/media/Untitled design(7).fd7da603043348e5a023.jpg",
+    "static/media/inside_barber_shop_mobile.jpg": "/static/media/inside_barber_shop_mobile.8adc684bc78739d36ec5.jpg",
+    "static/media/Untitled design(6).jpg": "/static/media/Untitled design(6).38ff8d7fb04a1e382a15.jpg",
     "static/media/barber-pole.png": "/static/media/barber-pole.52fa69dd4632c2c2f506.png",
     "index.html": "/index.html",
-    "main.f53bcf15.css.map": "/static/css/main.f53bcf15.css.map",
-    "main.e3f554d5.js.map": "/static/js/main.e3f554d5.js.map"
+    "main.7574469a.css.map": "/static/css/main.7574469a.css.map",
+    "main.774e4cd1.js.map": "/static/js/main.774e4cd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f53bcf15.css",
-    "static/js/main.e3f554d5.js"
+    "static/css/main.7574469a.css",
+    "static/js/main.774e4cd1.js"
   ]
 }

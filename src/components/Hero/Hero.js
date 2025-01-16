@@ -1,5 +1,5 @@
 import { Button } from "reactstrap"
-import barberShop from "../../assets/images/inside_barber_shop.jpg"
+//import barberShop from "../../assets/images/inside_barber_shop.jpg"
 import styles from "./Hero.module.scss"
 
 export default function Hero(){
@@ -32,9 +32,9 @@ export default function Hero(){
                         </div>
                     </div>
                     <div className={`${styles.heroImage} col-md-7 pt-3 `}
-                        style={{
+                        /* style={{
                             backgroundImage: `url(${barberShop})`
-                      }}>
+                      }} */>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-![Project Showcase](images/beRectified.png)
+![Project Showcase](public/images/beRectified.png)
 
 # Getting Started with Create React App
 
