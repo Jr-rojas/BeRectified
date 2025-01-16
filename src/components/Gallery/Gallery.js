@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Gallery.module.scss"
 import galleryImages from "../../utils/loadImages"; 
 
@@ -46,6 +46,22 @@ export default function Pricing(){
         );
       };
 
+      useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === "ArrowLeft") {
+                showPrevImage();
+            } else if (event.key === "ArrowRight") {
+                showNextImage();
+            } else if (event.key === "Escape") {
+                closeViewer();
+            }
+        };
+    
+        window.addEventListener("keydown", handleKeyDown);
+    
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [currentImageIndex]);
+
     return(
         <section  style={{backgroundColor:"#201F1F"}}>
             <div className={`${styles.container} container-md`}>
@@ -70,16 +86,40 @@ export default function Pricing(){
             {/* Image Viewer */}
             {isViewerOpen && (
                 <div className={styles.viewer} onClick={handleBackgroundClick}>
-                <div className={styles.viewerContent} onClick={(e) => e.stopPropagation()}>
-                    <button className={styles.closeButton} onClick={closeViewer} aria-label="Close Viewer">
-                    &times;
+                <div 
+                  className={styles.viewerContent} 
+                  onClick={(e) => e.stopPropagation()}
+                  aria-labelledby="image-viewer-title"
+                  aria-describedby="image-viewer-description"
+                  >
+                    <button 
+                      className={styles.closeButton} 
+                      onClick={closeViewer} 
+                      aria-label="Close Viewer"
+                      aria-controls="image-viewer"
+                    >
+                        &times;
                     </button>
-                    <button className={styles.prevButton} onClick={showPrevImage}>
-                    &#8249;
+                    <button 
+                      className={styles.prevButton} 
+                      onClick={showPrevImage}
+                      aria-label="Pevious image"
+                      aria-disabled={currentImageIndex === 0}
+                    >
+                        &#8249;
                     </button>
-                    <img src={galleryImages[currentImageIndex]} alt="Enlarged view" />
-                    <button className={styles.nextButton} onClick={showNextImage}>
-                    &#8250;
+                    <img 
+                      src={galleryImages[currentImageIndex]} 
+                      alt="Enlarged view"
+                      id="image-viewer"
+                    />
+                    <button 
+                      className={styles.nextButton} 
+                      onClick={showNextImage}
+                      aria-label="Next image"
+                      aria-disabled={currentImageIndex === galleryImages.length - 1}
+                    >
+                        &#8250;
                     </button>
                 </div>
                 </div>

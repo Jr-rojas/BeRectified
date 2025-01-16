@@ -13,7 +13,7 @@ export default function Hero(){
                         <div className="my-3">
                             <h1 className="display-1 lh-1 mb-0 pb-0 text-primary">Be Rectified</h1>
                             <h1 className="display-1 lh-1 mb-0 pb-0">Barber Shop</h1>
-                            <h3>by Jose Solis</h3>
+                            <h2>by Jose Solis</h2>
                         </div>
                         <div className="my-3">
                             <Button
