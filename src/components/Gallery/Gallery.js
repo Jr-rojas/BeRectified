@@ -55,8 +55,12 @@ export default function Pricing(){
                             <div key={rowIndex} className={styles.gallery}>
                                 <div className={styles.grid}>
                                     {[...rowImages, ...rowImages].map((img, i) => (
-                                        <img key={`${rowIndex}-${i}`} src={img} alt={`Gallery ${i + 1}`} 
-                                        onClick={() => openViewer((rowIndex * rowImages.length + (i % rowImages.length)) %galleryImages.length)} />
+                                        <img 
+                                        key={`${rowIndex}-${i}`} 
+                                        src={img} 
+                                        alt={`Gallery ${i + 1}`} 
+                                        onClick={() => openViewer((rowIndex * rowImages.length + (i % rowImages.length)) %galleryImages.length)} 
+                                        />
                                     ))}
                                 </div>
                             </div>

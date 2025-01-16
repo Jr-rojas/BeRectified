@@ -28,7 +28,7 @@ export default function CustomNavbar() {
             alt="logo"
             src="/images/Be_Rectified_logo.png"
             style={{
-                height: 80,
+                width: 125,
                 aspectRatio: "auto",
             }}
             />

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.89b7f085.css",
-    "main.js": "/static/js/main.e4d354bf.js",
-    "static/media/IMG_0607.jpg": "/static/media/IMG_0607.31b35f826c5cd980a911.jpg",
+    "main.js": "/static/js/main.3f230c6f.js",
+    "static/media/inside_barber_shop.jpg": "/static/media/inside_barber_shop.18dbfbe44b618b64a4d3.jpg",
     "static/media/IMG_1744.JPG": "/static/media/IMG_1744.3800747b7434ad525839.JPG",
     "static/media/IMG_0611.jpg": "/static/media/IMG_0611.7007b7fecdef9e1ef673.jpg",
     "static/media/IMG_1737.JPG": "/static/media/IMG_1737.1d7deec33f83f1ae26c3.JPG",
@@ -20,10 +20,10 @@
     "static/media/barber-pole.png": "/static/media/barber-pole.52fa69dd4632c2c2f506.png",
     "index.html": "/index.html",
     "main.89b7f085.css.map": "/static/css/main.89b7f085.css.map",
-    "main.e4d354bf.js.map": "/static/js/main.e4d354bf.js.map"
+    "main.3f230c6f.js.map": "/static/js/main.3f230c6f.js.map"
   },
   "entrypoints": [
     "static/css/main.89b7f085.css",
-    "static/js/main.e4d354bf.js"
+    "static/js/main.3f230c6f.js"
   ]
 }
