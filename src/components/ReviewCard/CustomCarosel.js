@@ -62,22 +62,25 @@ function CustomCarosel(props) {
 
   return (
     <div className="my-4">
-      <Carousel activeIndex={activeIndex} next={next} previous={previous} className="bg-secondary shadow container">
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} className="bg-secondary shadow container" aria-live="polite" >
         <CarouselIndicators
           items={reviews}
           activeIndex={activeIndex}
           onClickHandler={goToIndex}
+          aria-label="Slide indicators" 
         />
         {slides}
         <CarouselControl
           direction="prev"
           directionText="Previous"
           onClickHandler={previous}
+          aria-label="Previous slide"
         />
         <CarouselControl
           direction="next"
           directionText="Next"
           onClickHandler={next}
+          aria-label="Next slide"
         />
       </Carousel>
     </div>
