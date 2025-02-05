@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7574469a.css",
-    "main.js": "/static/js/main.1e98b761.js",
+    "main.js": "/static/js/main.7f8f6ee6.js",
     "static/media/inside_barber_shop.jpg": "/static/media/inside_barber_shop.18dbfbe44b618b64a4d3.jpg",
     "static/media/JoseCuttingHair.jpg": "/static/media/JoseCuttingHair.fa7250e390b200efe60c.jpg",
     "static/media/inside_barber_shop_tablet.jpg": "/static/media/inside_barber_shop_tablet.f9ae4a2ebdfa914be595.jpg",
@@ -22,10 +22,10 @@
     "static/media/barber-pole.png": "/static/media/barber-pole.52fa69dd4632c2c2f506.png",
     "index.html": "/index.html",
     "main.7574469a.css.map": "/static/css/main.7574469a.css.map",
-    "main.1e98b761.js.map": "/static/js/main.1e98b761.js.map"
+    "main.7f8f6ee6.js.map": "/static/js/main.7f8f6ee6.js.map"
   },
   "entrypoints": [
     "static/css/main.7574469a.css",
-    "static/js/main.1e98b761.js"
+    "static/js/main.7f8f6ee6.js"
   ]
 }
