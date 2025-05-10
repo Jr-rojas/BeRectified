@@ -5,6 +5,7 @@ import {
   CarouselControl,
   CarouselIndicators,
 } from 'reactstrap';
+import { motion } from "motion/react"
 import ReviewCard from './ReviewCard';
 
 const reviews = [
@@ -61,7 +62,12 @@ function CustomCarosel(props) {
   });
 
   return (
-    <div className="my-4">
+    <motion.div className="my-4"
+      initial={{opacity:0, y:50}}
+      whileInView={{opacity:1, y:0}}
+      viewport={{amount:0.2}}
+      transition={{duration:0.8, ease:"easeOut"}}
+    >
       <Carousel activeIndex={activeIndex} next={next} previous={previous} className="bg-secondary shadow container" aria-live="polite" >
         <CarouselIndicators
           items={reviews}
@@ -83,7 +89,7 @@ function CustomCarosel(props) {
           aria-label="Next slide"
         />
       </Carousel>
-    </div>
+    </motion.div>
   );
 }
 

@@ -1,4 +1,5 @@
 import { Button } from "reactstrap"
+import { motion } from "motion/react"
 //import barberShop from "../../assets/images/inside_barber_shop.jpg"
 import styles from "./Hero.module.scss"
 
@@ -9,7 +10,13 @@ export default function Hero(){
         <section id="heroSection" className={`${styles.heroSection} bg-secondary`}>
             <div className="container-fluid h-100 p-1 m-1">
                 <div className="container-lg row justify-content-around align-items-center h-100 mx-auto">
-                    <div className="col-md-4">
+                    <motion.div 
+                        className="col-md-4"
+                        initial={{opacity: 0, x:-50}}
+                        whileInView={{opacity: 1 , x:0}}
+                        viewport={{amount: 0.2}}
+                        transition={{duration: 0.8, ease: "easeOut"}}
+                    >
                         <div className="my-3">
                             <h1 className="display-1 lh-1 mb-0 pb-0 text-primary">Be Rectified</h1>
                             <h1 className="display-1 lh-1 mb-0 pb-0">Barber Shop</h1>
@@ -30,11 +37,15 @@ export default function Hero(){
                                 Book Now
                             </Button>
                         </div>
-                    </div>
-                    <div className={`${styles.heroImage} col-md-7 pt-3 `} 
+                    </motion.div>
+                    <motion.div className={`${styles.heroImage} col-md-7 pt-3 `} 
                         loading="eager"
+                        initial={{opacity: 0, x:50}}
+                        whileInView={{opacity:1, x:0}}
+                        viewport={{amount: 0.2}}
+                        transition={{duration: .8 ,ease:"easeOut"}}
                     >
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>

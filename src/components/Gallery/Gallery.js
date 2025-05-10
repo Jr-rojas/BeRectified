@@ -1,17 +1,9 @@
 import { useState, useEffect } from "react";
+import { motion } from "motion/react"
 import styles from "./Gallery.module.scss"
 import galleryImages from "../../utils/loadImages"; 
+import { chunkArray } from "../../utils/chunkArray";
 
-const chunkArray = (array, chunkSize) => {
-    return array.reduce((result, item, index) => {
-        const chunkIndex = Math.floor(index / chunkSize);
-        if (!result[chunkIndex]) {
-            result[chunkIndex] = [];
-        }
-        result[chunkIndex].push(item);
-        return result;
-    }, []);
-};
 
 export default function Pricing(){
     const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -64,9 +56,19 @@ export default function Pricing(){
 
     return(
         <section  style={{backgroundColor:"#201F1F"}}>
-            <div className={`${styles.container} container-md`}>
-                <h1>Gallery</h1>
-                <div className={`${styles.container1} container-md`}>
+            <div className={`${styles.container} container-fluid`}>
+                <motion.h1 className="container-md mb-3"
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                viewport={{amount:0.2}}
+                transition={{duration:0.8, ease:"easeOut"}}
+                >Gallery</motion.h1>
+                <motion.div className={`${styles.container1} container-fluid`}
+                  initial={{opacity:0}}
+                  whileInView={{opacity:1}}
+                  viewport={{amount:0.2}}
+                  transition={{duration:0.8, ease:"easeOut"}}
+                >
                     {rows.map((rowImages, rowIndex) => (
                             <div key={rowIndex} className={styles.gallery}>
                                 <div className={styles.grid}>
@@ -82,7 +84,7 @@ export default function Pricing(){
                                 </div>
                             </div>
                         ))}
-                </div>
+                </motion.div>
             </div>
             {/* Image Viewer */}
             {isViewerOpen && (

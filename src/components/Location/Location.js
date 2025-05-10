@@ -1,4 +1,5 @@
 import { Button } from "reactstrap"
+import { motion } from "motion/react"
 import location from "../../assets/images/location.png"
 import styles from "./Location.module.scss"
 
@@ -9,9 +10,19 @@ export default function Location(){
     return(
         <section>
             <div className="container-lg my-5">
-                <h1 className="text-light">Location</h1>
+                <motion.h1 
+                    className="text-light"
+                    initial={{opacity:0, x:-50}}
+                    whileInView={{opacity:1, x:0}}
+                    viewport={{amount:0.2}}
+                    transition={{duration:0.8, ease:"easeOut"}}
+                >Location</motion.h1>
                 <div className="row justify-content-around">
-                    <div className="col-lg-3">
+                    <motion.div className="col-lg-3"
+                    initial={{opacity:0, x:-50}}
+                    whileInView={{opacity:1, x:0}}
+                    viewport={{amount:0.2}}
+                    transition={{duration:0.8, ease:"easeOut"}}>
                         <div className="pb-2">
                             <address className="col">
                                 <strong>Be Rectified</strong>
@@ -34,10 +45,14 @@ export default function Location(){
                                 </Button>
                             </div>
                         </div>
-                    </div>
-                    <div className={`col-lg ${styles.img} my-3`}>
+                    </motion.div>
+                    <motion.div className={`col-lg ${styles.img} my-3`}
+                    initial={{opacity:0, x:50}}
+                    whileInView={{opacity:1, x:0}}
+                    viewport={{amount:0.2}}
+                    transition={{duration:0.8, ease:"easeOut"}}>
                         <img src={location} alt="map of location of barbershop" className="img-fluid"/>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
