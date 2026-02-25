@@ -1,11 +1,11 @@
 import { Button } from "reactstrap"
 import { motion } from "motion/react"
-import location from "../../assets/images/location.png"
+import location from "../../assets/images/location2.png"
 import styles from "./Location.module.scss"
 
 export default function Location(){
 
-    const googleMapsUrl="https://maps.app.goo.gl/dWxroRCr6AF5PoW46"
+    const googleMapsUrl="https://maps.app.goo.gl/TYQfpwTiMj3xsTa76"
 
     return(
         <section>
@@ -27,9 +27,9 @@ export default function Location(){
                             <address className="col">
                                 <strong>Be Rectified</strong>
                                 <br/>
-                                1716 Niles St,
+                                1910 19th St Suite A,
                                 <br/>
-                                Bakersfield, CA 93305
+                                Bakersfield, CA 93301
                             </address>
                             <div className="col">
                                 <Button
